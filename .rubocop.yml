@@ -1,0 +1,9 @@
+require: rubocop-rails
+
+AllCops:
+  Exclude:
+    - 'generated/**/*.rb'
+
+Style/StringLiterals:
+  # EnforcedStyle: double_quotes
+  Enabled: false
